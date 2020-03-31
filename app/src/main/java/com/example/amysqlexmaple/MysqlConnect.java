@@ -67,7 +67,7 @@ public class MysqlConnect {
 
     }
 
-    public void sendData(){//NegativeIonModel negativeIonModel
+    public void sendData(){//NegativeIonModel negativeIonModel 之後由這送電源開跟關去資料庫
 
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
